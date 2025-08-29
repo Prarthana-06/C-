@@ -1,45 +1,61 @@
 ﻿using System;
-interface Resizeable
+class Shape
 {
-    void resizewidth(int width);
-    void resizeheight(int height);
-}
-class Rectangle : Resizeable
-{
-    private int width;
-    private int height;
-    public Rectangle(int w, int h)
+    public virtual void draw()
     {
-        width = w; height = h;
+        Console.WriteLine("drawing a shape");
     }
-    public void resizewidth(int w)
+    public virtual void erase()
     {
-        width = w;
-        Console.WriteLine("width resized to" + width);
-    }
-    public void resizeheight(int h)
-    {
-        height = h;
-        Console.WriteLine("height resized to" + height);
-    }
-    public void display()
-    {
-        Console.WriteLine("rectangle dimension: width=" + width + ",height =" + height);
+        Console.WriteLine("erasing a shape");
     }
 }
-class program
+class Circle : Shape
+{
+    public override void draw()
+    {
+        Console.WriteLine("drawing a circle");
+    }
+    public override void erase()
+    {
+        Console.WriteLine("erase a circle");
+
+    }
+}
+class Triangle : Shape
+{
+    public override void draw()
+    {
+        Console.WriteLine("draw a triangle");
+    }
+    public override void erase()
+    {
+        Console.WriteLine("erase a tringle");
+    }
+}
+class Square : Shape
+{
+    public override void draw()
+    {
+        Console.WriteLine("draw a square");
+    }
+    public override void erase()
+    {
+        Console.WriteLine("eraseing a square");
+    }
+}
+class Program
 {
     static void Main(string[] args)
     {
-        Rectangle r = new Rectangle(10, 20);
-        r.display();
-        r.resizewidth(30);
-        r.resizeheight(40);
-        r.display();
-        Console.ReadLine();
+        Shape[] shapes = { new Circle(), new Triangle(), new Square() };
+        foreach (Shape S in shapes)
+        {
+            S.draw();
+            S.erase();
+        }
     }
-
 }
 
 
-    
+
