@@ -1,61 +1,39 @@
 ﻿using System;
-class Shape
+class simple
 {
-    public virtual void draw()
+    static void Main()
     {
-        Console.WriteLine("drawing a shape");
-    }
-    public virtual void erase()
-    {
-        Console.WriteLine("erasing a shape");
-    }
-}
-class Circle : Shape
-{
-    public override void draw()
-    {
-        Console.WriteLine("drawing a circle");
-    }
-    public override void erase()
-    {
-        Console.WriteLine("erase a circle");
-
-    }
-}
-class Triangle : Shape
-{
-    public override void draw()
-    {
-        Console.WriteLine("draw a triangle");
-    }
-    public override void erase()
-    {
-        Console.WriteLine("erase a tringle");
-    }
-}
-class Square : Shape
-{
-    public override void draw()
-    {
-        Console.WriteLine("draw a square");
-    }
-    public override void erase()
-    {
-        Console.WriteLine("eraseing a square");
-    }
-}
-class Program
-{
-    static void Main(string[] args)
-    {
-        Shape[] shapes = { new Circle(), new Triangle(), new Square() };
-        foreach (Shape S in shapes)
+        Console.WriteLine("ENTER 1ST NO");
+        int num1=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("enter 2nd no");
+        int num2=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("enter oprator(+,-,*,/,%)");
+        char op=Convert.ToChar(Console.ReadLine());
+        int result = 0;
+        switch(op)
         {
-            S.draw();
-            S.erase();
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                result = num1 / num2;
+                break;
+            case '%':
+                result = num1 % num2;
+                break;
+            default:
+                Console.WriteLine("invalid");
+                break;
+
+
+
         }
+        Console.WriteLine("result" + result);
     }
 }
-
-
-
