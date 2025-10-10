@@ -1,0 +1,14 @@
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.exe
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.deps.json
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.runtimeconfig.json
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.dll
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\bin\Debug\net8.0\multipledelegate.pdb
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.AssemblyInfo.cs
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.dll
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\refint\multipledelegate.dll
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.pdb
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\multipledelegate.genruntimeconfig.cache
+C:\Users\Student\Desktop\prarthana c#\multipledelegate\multipledelegate\obj\Debug\net8.0\ref\multipledelegate.dll
